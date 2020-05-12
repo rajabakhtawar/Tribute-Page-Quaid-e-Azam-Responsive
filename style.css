@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin: 50px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    padding: 10px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-weight: lighter;    
+}
+.era h1{
+    text-transform: uppercase;
+    font-weight: lighter;    
+}
+.subtitle h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.headerIntro{
+    font-size: 15px;
+   text-align: left;
+   margin:  0 20px;
+   justify-content: left;
+   border: 1px solid;
+   padding: 3px;
+}
+.quaidpic img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px black solid;
+}
+.quaidpic{
+    border: 1px solid;
+   margin:  10px 20px 0 20px;
+   padding: 10px;
+
+}
+.picfooter{
+    background-color:rgb(207, 207, 207) ;
+    font-size: 13px;
+    margin:  0 20px;
+    padding: 1px;
+
+}
+
+.timeline-Quaide-Azam{
+    text-align: left;
+}
+.timeline-heading h3{
+    margin-left: 20px;
+}
+.list ul{
+    margin: 0 50px;
+    padding: 0;
+}
+.list ul span{
+    font-weight: bolder;
+}
+.list li{
+    padding: 3px;
+    text-transform: capitalize;
+}
+.for-more a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        margin: 10px;
+        background-color: rgb(228, 228, 228);
+        text-align: center;
+        padding: 5px;
+    }
+
+    .subtitle h2{
+        font-weight: bold;
+        text-transform: uppercase;
+        /* font-size: 15px; */
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .container{
+        margin: 5px;
+        background-color: rgb(228, 228, 228);
+        text-align: center;
+        padding: 5px;
+    }
+    .title h1{
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;    
+        text-align: center;
+    }
+
+    .subtitle h2{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 15px;
+
+    }
+    .quaidpic img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 1px black solid;
+    }
+    .picfooter{
+        background-color:rgb(207, 207, 207) ;
+        font-size: 13px;
+        margin:  0 5px;
+    }
+    .timeline-Quaide-Azam{
+        text-align: left;
+    }
+    .timeline-heading h3{
+        margin-left: 10px;
+    }
+    .list ul{
+        margin: 0 50px;
+        padding: 0;
+    }
+    .list ul span{
+        font-weight: bolder;
+    }
+    .list li{
+        padding: 3px;
+        text-transform: capitalize;
+    }
+    .for-more{
+        font-size: larger;
+    }
+    .for-more a{
+        text-decoration: none;
+        color: rgb(0, 140, 255);
+
+        
+    }
+
+}
+
+
+
+
+
+
+
